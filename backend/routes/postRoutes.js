@@ -11,6 +11,7 @@ router
 
 router
     .route('/:id')
+    .put(postController.editPost)
     .delete(postController.deletePost)
 
 export default router

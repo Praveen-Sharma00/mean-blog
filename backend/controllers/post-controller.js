@@ -35,7 +35,24 @@ const addNewPost = async (req, res) => {
         })
     }
 }
-
+const editPost = async (req, res) => {
+    let postId = req.params.id
+    let post = {title: req.body.title, content: req.body.content}
+    try {
+        await Post.updateOne({_id: postId}, post)
+        logger.info('Post updated !')
+        return res.status(200).json({
+            message: 'Post updated successfully ',
+            data: []
+        })
+    } catch (e) {
+        logger.error('Post updation failed !')
+        return res.status(400).json({
+            message: 'Could not update post ! Try again...',
+            data: []
+        })
+    }
+}
 const deletePost = async (req, res) => {
     let postId = req.params.id
 
@@ -57,5 +74,6 @@ const deletePost = async (req, res) => {
 export default {
     getAllPosts,
     addNewPost,
-    deletePost
+    deletePost,
+    editPost
 }

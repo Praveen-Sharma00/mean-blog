@@ -2,13 +2,14 @@
   <form (submit)="onAddPost(postForm)" #postForm="ngForm">
     <mat-form-field>
       <input type="text" name="title" minlength="3"
-             ngModel matInput required #title="ngModel">
+             [ngModel]="post?.title"
+             matInput required #title="ngModel">
       <mat-error *ngIf="title.invalid">Enter post title</mat-error>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Textarea</mat-label>
       <textarea matInput
-                ngModel
+                [ngModel]="post?.content"
                 name="content" required #content="ngModel"></textarea>
       <mat-error *ngIf="content.invalid">Enter post content</mat-error>
     </mat-form-field>
@@ -18,5 +19,4 @@
     </button>
   </form>
 </mat-card>
-<hr>
 
