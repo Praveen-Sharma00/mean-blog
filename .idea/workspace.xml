@@ -11,18 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e8a12f-36ea-4dae-9315-2d3563dee38b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/post-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/env/development.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/env/production.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/postRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/post-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/postRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/postRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +106,7 @@
       <updated>1599374012422</updated>
       <workItem from="1599374015268" duration="9610000" />
       <workItem from="1599395843202" duration="1918000" />
-      <workItem from="1599397990442" duration="3241000" />
+      <workItem from="1599397990442" duration="7810000" />
     </task>
     <servers />
   </component>

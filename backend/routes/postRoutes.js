@@ -4,6 +4,9 @@ import postController from '../controllers/post-controller'
 
 const router = express.Router()
 
-router.get('/', postController.getAllPosts)
+router
+    .route('/')
+    .get(postController.getAllPosts)
+    .post(postController.addNewPost)
 
 export default router

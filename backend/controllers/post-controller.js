@@ -17,7 +17,15 @@ const getAllPosts = (req, res) => {
         data: posts
     })
 }
-
+const addNewPost = (req, res) => {
+    let post = req.body
+    console.log(post)
+    return res.status(200).json({
+        message: 'Post added successfully ',
+        data: []
+    })
+}
 export default {
-    getAllPosts
+    getAllPosts,
+    addNewPost
 }
