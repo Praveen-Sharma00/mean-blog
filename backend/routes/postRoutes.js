@@ -9,4 +9,8 @@ router
     .get(postController.getAllPosts)
     .post(postController.addNewPost)
 
+router
+    .route('/:id')
+    .delete(postController.deletePost)
+
 export default router

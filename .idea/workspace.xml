@@ -11,12 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e8a12f-36ea-4dae-9315-2d3563dee38b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/models/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/post-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/env/development.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/env/development.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/postRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/postRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\CloudSurfer\Documents\GitHub\mean-blog\frontend\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,6 +113,7 @@
       <workItem from="1599374015268" duration="9610000" />
       <workItem from="1599395843202" duration="1918000" />
       <workItem from="1599397990442" duration="7810000" />
+      <workItem from="1599452180842" duration="5176000" />
     </task>
     <servers />
   </component>
