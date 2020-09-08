@@ -11,12 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e8a12f-36ea-4dae-9315-2d3563dee38b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/signup/signup.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/signup/signup.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/signup/signup.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
