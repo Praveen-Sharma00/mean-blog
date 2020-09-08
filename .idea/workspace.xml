@@ -11,27 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e8a12f-36ea-4dae-9315-2d3563dee38b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/images/blue)-1599549714550.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/blue)-1599549721729.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/oks-1599549187110.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/sample-title-1599546259608.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/sample-title-1599547484055.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/sample-title-1599547556572.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/images/which-one-would-you-love-to-code-in-?-1599547879185.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/post-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/post-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/postRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/postRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-create/post-create.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post-list/post-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/posts/post.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +115,7 @@
       <workItem from="1599476639226" duration="3959000" />
       <workItem from="1599541266371" duration="42000" />
       <workItem from="1599541310780" duration="9069000" />
+      <workItem from="1599552220870" duration="3389000" />
     </task>
     <servers />
   </component>

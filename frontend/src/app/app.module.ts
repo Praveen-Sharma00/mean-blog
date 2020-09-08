@@ -14,8 +14,10 @@ import {HeaderComponent} from './header/header.component';
 import {PostListComponent} from './posts/post-list/post-list.component';
 import {MatAccordion, MatExpansionModule} from '@angular/material/expansion';
 import {HttpClientModule} from '@angular/common/http';
-import {AppRoutingModule} from "./app-routing.module";
-import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {AppRoutingModule} from './app-routing.module';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {PostService} from './posts/post.service';
 
 
 @NgModule({
@@ -35,9 +37,10 @@ import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
     MatExpansionModule,
 
     MatFormFieldModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    MatPaginatorModule
   ],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
