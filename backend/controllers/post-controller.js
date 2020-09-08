@@ -18,14 +18,24 @@ const getAllPosts = async (req, res) => {
     }
 }
 const addNewPost = async (req, res) => {
-    let post = req.body
+    const url = req.protocol + '://' + req.get("host")
+    let post = {
+        title: req.body.title,
+        content: req.body.content,
+        imagePath: url + '/images/' + req.file.filename
+    }
     let addedPost = {}
     try {
         addedPost = await Post.create(post)
         logger.info('Post created !')
         return res.status(200).json({
             message: 'Post added successfully ',
-            data: addedPost
+            data: {
+                id: addedPost._id,
+                title: post.title,
+                content: post.content,
+                imagePath: post.imagePath
+            }
         })
     } catch (e) {
         logger.error('Post creation failed !')
@@ -37,7 +47,12 @@ const addNewPost = async (req, res) => {
 }
 const editPost = async (req, res) => {
     let postId = req.params.id
-    let post = {title: req.body.title, content: req.body.content}
+    let imagePath = req.body.imagePath;
+    if (req.file) {
+        const url = req.protocol + '://' + req.get('host')
+        imagePath = url + '/images/' + req.file.filename;
+    }
+    let post = {title: req.body.title, content: req.body.content, imagePath: imagePath}
     try {
         await Post.updateOne({_id: postId}, post)
         logger.info('Post updated !')
